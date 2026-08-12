@@ -4,14 +4,13 @@
   "description": "Mini ERP + CRM Backend API",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev",
-    "prisma:seed": "ts-node prisma/seed.ts",
-    "postinstall": "prisma generate"
-  },
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+  "prisma:generate": "prisma generate",
+  "prisma:migrate": "prisma migrate dev",
+  "prisma:seed": "ts-node prisma/seed.ts"
+},
   "dependencies": {
     "@prisma/client": "^5.22.0",
     "bcryptjs": "^2.4.3",
